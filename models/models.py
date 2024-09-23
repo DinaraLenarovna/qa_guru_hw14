@@ -15,7 +15,6 @@ class MainPage:
             browser.element('[autocomplete="new-password"]').type(password)
             browser.element('[type="submit"]').click()
 
-
     def internet_in_apartment_info(self):
         with allure.step("Открыть информацию о тарифах интернета в квартире"):
             browser.element('.link-menu').click()

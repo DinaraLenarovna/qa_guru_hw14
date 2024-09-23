@@ -21,12 +21,6 @@ def test_internet_in_apartment():
     ufanet_page.open()
     ufanet_page.internet_in_apartment_info()
 
-# def test_open_online_chat():
-#     browser.open('/')
-#     browser.element('button.phone-list__phone').click()
-    # browser.element('#widget-content-body').should(be.visible)
-    # browser.element('#ChatMessageContainer').should(be.visible)
-    # browser.element('#ChatMessageContainer').should(have.text('Введите сообщение'))
 
 @allure.tag("web")
 @allure.severity(Severity.NORMAL)
@@ -35,6 +29,7 @@ def test_internet_in_apartment():
 def test_choose_orsk_city():
     ufanet_page.open()
     ufanet_page.choose_city('Орск')
+
 
 @allure.tag("web")
 @allure.severity(Severity.NORMAL)
@@ -52,10 +47,3 @@ def test_check_office_address():
 def test_become_a_client_form():
     ufanet_page.open()
     ufanet_page.open_application_form()
-
-
-
-
-
-
-
