@@ -1,6 +1,6 @@
 # Демо проект автоматизации тестирования сайта [Уфанет.ру](https://ufanet.ru/)
 ___
-### Проект представляет собой набор UI-тестов покрывающих следующий функционал:
+## Проект представляет собой набор UI-тестов покрывающих следующий функционал:
 1. Авторизация
 2. Переключение контента на странице
 3. Проверка корректного перехода между страницами
@@ -28,20 +28,20 @@ ___
 ### Главная страница Allure-отчета
 
 <p align="center">
-<img src="media/allure-report-main-page.png">
+<img src="media/allure-report-main-page.png"/>
 </p>
 
 ### Детализация шагов
 
 <p align="center">
-<img src="media/allure-report-steps.png">
+<img src="media/allure-report-steps.png"/>
 </p>
 
 
 ### Графики прохождения тестов
 
 <p align="center">
-<img src="media/allure-report-graphs.png">
+<img src="media/allure-report-graphs.png"/>
 </p>
 
 
@@ -50,12 +50,12 @@ ___
 > После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
 
 <p align="center">
-<img src="media/telegram-report.png">
+<img src="media/telegram-report.png"/>
 </p>
 
 ## Пример запуска теста в Selenoid
 
-К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
+> К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img src="media/selenoid-video.gif">
+  <img src="media/selenoid-video.gif"/>
 </p>
