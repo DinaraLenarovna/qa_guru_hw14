@@ -17,7 +17,7 @@ ___
 
 Проект написан на языке программирования Python, с использованием фреймворков Pytest, Selene. 
 
-Реализована удаленная сборка тестов в Jenkins.
+Реализована удаленная сборка тестов в [Jenkins](https://jenkins.autotests.cloud/job/014_DinarittoH_lesson_14/).
 
 Запуск тестов в Selenoid.
 
